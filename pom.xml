@@ -265,4 +265,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	<url>https://github.com/suxingli/aliyuncs.git</url>
 </project>
