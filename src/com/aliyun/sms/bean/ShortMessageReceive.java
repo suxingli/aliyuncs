@@ -1,4 +1,4 @@
-package com.github.suxingli.aliyuncs.bean;
+package com.aliyun.sms.bean;
 
 import java.util.Date;
 

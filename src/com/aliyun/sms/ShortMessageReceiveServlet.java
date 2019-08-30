@@ -1,4 +1,4 @@
-package com.github.suxingli.aliyuncs;
+package com.aliyun.sms;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,11 +12,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.github.suxingli.aliyuncs.bean.ShortMessageReceive;
-import com.github.suxingli.aliyuncs.context.ShortMessageContext;
-import com.github.suxingli.aliyuncs.exception.ShortMessageReceiveException;
-import com.github.suxingli.aliyuncs.listener.ShortMessageReceiveListener;
-import com.github.suxingli.aliyuncs.util.ServletUtil;
+import com.aliyun.sms.bean.ShortMessageReceive;
+import com.aliyun.sms.exception.ShortMessageReceiveException;
+import com.aliyun.sms.listener.ShortMessageReceiveListener;
+import com.aliyun.sms.util.ServletUtil;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;

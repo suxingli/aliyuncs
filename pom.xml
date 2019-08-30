@@ -5,6 +5,7 @@
 	<artifactId>aliyuncs</artifactId>
 	<version>1.0.1</version>
 	<name>阿里云接口工具包</name>
+	<url>https://github.com/suxingli/aliyuncs.git</url>
 	<description>阿里云接口工具包</description>
 	
 	<!-- 属性设置 -->
@@ -58,7 +59,7 @@
 
 	<profiles>
 		<profile>
-			<id>jdk-${java.version}</id>
+			<id>release</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 				<jdk>${java.version}</jdk>
@@ -265,5 +266,4 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-	<url>https://github.com/suxingli/aliyuncs.git</url>
 </project>

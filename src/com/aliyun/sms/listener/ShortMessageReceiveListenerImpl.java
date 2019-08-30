@@ -1,10 +1,10 @@
-package com.github.suxingli.aliyuncs.listener;
+package com.aliyun.sms.listener;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
-import com.github.suxingli.aliyuncs.bean.ShortMessageReceive;
-import com.github.suxingli.aliyuncs.exception.ShortMessageReceiveException;
+import com.aliyun.sms.bean.ShortMessageReceive;
+import com.aliyun.sms.exception.ShortMessageReceiveException;
 
 /**
  * 短信回执监听器实现类

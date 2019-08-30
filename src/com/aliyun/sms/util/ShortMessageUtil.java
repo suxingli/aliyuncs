@@ -1,5 +1,6 @@
-package com.github.suxingli.aliyuncs.util;
+package com.aliyun.sms.util;
 
+import com.aliyun.sms.ShortMessageContext;
 import com.aliyuncs.CommonRequest;
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
@@ -7,7 +8,6 @@ import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.http.MethodType;
 import com.aliyuncs.profile.DefaultProfile;
-import com.github.suxingli.aliyuncs.context.ShortMessageContext;
 
 /**
  * 短信工具类

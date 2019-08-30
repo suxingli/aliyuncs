@@ -1,4 +1,4 @@
-package com.github.suxingli.aliyuncs.util;
+package com.aliyun.sms.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

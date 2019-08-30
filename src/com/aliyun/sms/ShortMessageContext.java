@@ -1,5 +1,5 @@
 
-package com.github.suxingli.aliyuncs.context;
+package com.aliyun.sms;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
-import com.github.suxingli.aliyuncs.listener.ShortMessageReceiveListener;
-import com.github.suxingli.aliyuncs.util.ShortMessageUtil;
+import com.aliyun.sms.listener.ShortMessageReceiveListener;
+import com.aliyun.sms.util.ShortMessageUtil;
 
 /**
  * 短信上下文
@@ -51,7 +51,7 @@ public class ShortMessageContext {
 			if (context == null) {
 				context = new ShortMessageContext();
 				try {
-					Document doc = new SAXReader().read(ShortMessageUtil.class.getResourceAsStream("/aliyuncs-sms-cfg.xml"));
+					Document doc = new SAXReader().read(ShortMessageUtil.class.getResourceAsStream("/aliyun-sms-cfg.xml"));
 					Element root = doc.getRootElement();
 					context.access_key_id = root.elementTextTrim("access_key_id");
 					context.access_secret = root.elementTextTrim("access_secret");

@@ -1,4 +1,4 @@
-package com.github.suxingli.aliyuncs.exception;
+package com.aliyun.sms.exception;
 
 /**
  * 短信回执异常
